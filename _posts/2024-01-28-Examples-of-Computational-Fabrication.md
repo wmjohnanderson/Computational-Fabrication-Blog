@@ -1,6 +1,7 @@
 ---
 title: "Examples of Computational Fabrication"
 layout: post
+categories: media
 ---
 
 # 1. Computational Design in Nature
