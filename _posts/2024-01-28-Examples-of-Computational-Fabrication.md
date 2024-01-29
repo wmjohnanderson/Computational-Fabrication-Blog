@@ -7,7 +7,7 @@ categories: media
 # 1. Computational Design in Nature
 
 ## Botanical World
-![Red Cabbage](/assets/cabbage-pattern.jpg)
+![Red Cabbage](./assets/cabbage-pattern.jpg)
 ### The Cabbage
 
 ### Zoological World
