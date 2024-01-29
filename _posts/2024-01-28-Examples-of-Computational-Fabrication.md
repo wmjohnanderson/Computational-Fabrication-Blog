@@ -51,10 +51,10 @@ Though this project was only research releated, there where still some problems 
 
 Carfrae, Tristram. “Engineering the Water Cube.” ArchitectureAU, 1 July 2006, architectureau.com/articles/practice-23/. 
 
-Giesbrecht, Kirsten. “The Turing Process: Math Reveals How the Leopard Got Their Spots and How Molars Get Their Shape.” The Pipettepen, 4 Aug. 2022, www.thepipettepen.com/the-turing-process-math-reveals-how-the-leopard-got-their-spots-and-how-molars-get-their-shape/#:~:text=have%20in%20common%3F-,Their%20surface%20patterns%2C%20from%20the%20patches%20on%20giraffe%20coats%20to,regulating%20patterns%20arise%20in%20organisms. 
+Giesbrecht, Kirsten. “The Turing Process: Math Reveals How the Leopard Got Their Spots and How Molars Get Their Shape.” The Pipettepen, 4 Aug. 2022. 
 
 Lisa. “Fibonacci Numbers in Nature.” The Smart Happy Project, 3 Aug. 2013, thesmarthappyproject.com/fibonacci-numbers-in-nature/. 
 
-“Nervous System: Shop: Coral Cup.” Nervous System | Shop | Coral Cup, n-e-r-v-o-u-s.com/shop/product.php?code=367. Accessed 28 Jan. 2024. 
+“Nervous System: Shop: Coral Cup.” Nervous System Shop Coral Cup, n-e-r-v-o-u-s.com/shop/product.php?code=367. Accessed 28 Jan. 2024. 
 
 Sabina Aouf , Rima. “University of Stuttgart Creates Biomimetic Pavilions Based on Sea Urchins and Beetle Wings.” Dezeen, 8 May 2019, www.dezeen.com/2019/05/08/university-stuttgart-biomimetic-pavilion-bundesgartenschau-horticultural-show/. 
