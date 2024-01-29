@@ -6,8 +6,9 @@ layout: post
 # 1. Computational Design in Nature
 
 ## Botanical World
-### The Cabbage
 ![Red Cabbage](/assets/cabbage-pattern.jpg)
+### The Cabbage
+
 ### Zoological World
 ###
 
