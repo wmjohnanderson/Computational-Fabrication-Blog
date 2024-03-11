@@ -217,8 +217,8 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 ### Code
 This shows you the visual code from Grasshopper I used in order to create the above objects. The screenshots show the script setup for the object one output.
 <br>
-<img src="../assets/grasshopperScript1.png" alt="Grasshopper Script Part 1" width="300" height="300" style="border: 5px solid black;">
-<img src="../assets/grasshopperScript2.png" alt="Grasshopper Script Part 2" width="300" height="300" style="border: 5px solid black;">
+<img src="../assets/grasshopperScript1.png" alt="Grasshopper Script Part 1" width="500" height="500" style="border: 5px solid black;">
+<img src="../assets/grasshopperScript2.png" alt="Grasshopper Script Part 2" width="500" height="500" style="border: 5px solid black;">
 
 # Part 2: Creating a 3D to 2D Slicer
 For this second stage I learned how to create my very own slicer that when it recieves the dimensions of a 3D object is able to create slices a number of slices through the object based on the objects height and thickness of cutting material. From their the slices are displayed on a 2D plane side by side and ready to be laser cut. In this section I show you the code for my slicer, the slices and fabrication for two of my created objects.
@@ -248,9 +248,9 @@ The only mathematical calculation that my slicer does really is dividing the hei
 ### Code
 The code below showcases the slicer script I used to create slices for the fabricated objects above. As a note in the script you see, the thickness parameter and object size are adjusted to be smaller than real life as to not lag my computer.
 <br>
-<img src="../assets/slicerCode1.png" alt="Slicer Script Part 1" width="300" height="300" style="border: 5px solid black;">
-<img src="../assets/slicerCode2.png" alt="Slicer Script Part 2" width="300" height="300" style="border: 5px solid black;">
-<img src="../assets/slicerCode3.png" alt="Slicer Script Part 3" width="300" height="300" style="border: 5px solid black;">
+<img src="../assets/slicerCode1.png" alt="Slicer Script Part 1" width="500" height="500" style="border: 5px solid black;">
+<img src="../assets/slicerCode2.png" alt="Slicer Script Part 2" width="500" height="500" style="border: 5px solid black;">
+<img src="../assets/slicerCode3.png" alt="Slicer Script Part 3" width="500" height="500" style="border: 5px solid black;">
 
 
 
