@@ -45,15 +45,34 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 <br>
 
 1) 7.386
+<br>
+
 2) Adjusted Bezier Graph
+<br>
+
 3) 2.992
+<br>
+
 4) 9.929
+<br>
+
 5) Sine Graph
+<br>
+
 6) 38.746
+<br>
+
 7) 15.487
+<br>
+
 8) 1.2
+<br>
+
 9) 1.2
+<br>
+
 10) 1.2
+<br>
 
 **Object 2 - Deformed Bowl**
 <br>
@@ -61,15 +80,34 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 <br>
 
 1) 10.4
+<br>
+
 2) Adjusted Bezier Graph
+<br>
+
 3) 7.5
+<br>
+
 4) 16.3
+<br>
+
 5) Noise Graph
+<br>
+
 6) 13.5
+<br>
+
 7) 11.9
+<br>
+
 8) 18
+<br>
+
 9) 1.4
+<br>
+
 10) 1.4
+<br>
 
 **Object 3 - Normal Vase**
 <br>
@@ -77,15 +115,34 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 <br>
 
 1) 11.8
+<br>
+
 2) Adjusted Bezier Graph
+<br>
+
 3) 9.3
+<br>
+
 4) 11.8
+<br>
+
 5) Horizontal Line
+<br>
+
 6) 15.6
+<br>
+
 7) 14.2
+<br>
+
 8) 0
+<br>
+
 9) 1.5
+<br>
+
 10) 1.38
+<br>
 
 **Object 4 - Mushroom Cloud/Table**
 <br>
@@ -93,15 +150,34 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 <br>
 
 1) 6.4
+<br>
+
 2) Parabola Graph
+<br>
+
 3) 3
+<br>
+
 4) 22
+<br>
+
 5) Sine Graph
+<br>
+
 6) 38.7
+<br>
+
 7) 15.5
+<br>
+
 8) 1.2
+<br>
+
 9) 1.2
+<br>
+
 10) 1.2
+<br>
 
 **Object 5 - Sack/Santa's Bag**
 <br>
@@ -109,15 +185,34 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 <br>
 
 1) 7.7
+<br>
+
 2) Sinc Graph
+<br>
+
 3) 6.6
+<br>
+
 4) 26.3
+<br>
+
 5) Sinc Graph
+<br>
+
 6) 38.7
+<br>
+
 7) 15.5
+<br>
+
 8) 5.5
+<br>
+
 9) 1.3
+<br>
+
 10) 1.2
+<br>
 
 ### Code
 This shows you the visual code from Grasshopper I used in order to create the above objects. The screenshots show the script setup for the object one output.
