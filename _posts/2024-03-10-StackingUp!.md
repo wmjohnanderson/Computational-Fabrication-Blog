@@ -40,7 +40,9 @@ For this project I will break mathematical calculations into two categories: par
 ### Output
 Here I am going to showcase the parameters I used and the images of 5 different object variations using my Grasshopper script. I will list parameters from 1 to 10 representing the parameters above.
 **Object 1 - Spikey Vase**
+<br>
 <img src="../assets/spikeyVase.png" alt="Object 1 3D Object Image" width="350" height="350" >
+<br>
 
 1) 7.386
 2) Adjusted Bezier Graph
@@ -54,7 +56,9 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 10) 1.2
 
 **Object 2 - Deformed Bowl**
+<br>
 <img src="../assets/deformedBowl.png" alt="Object 2 3D Object Image" width="350" height="350" >
+<br>
 
 1) 10.4
 2) Adjusted Bezier Graph
@@ -68,7 +72,9 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 10) 1.4
 
 **Object 3 - Normal Vase**
+<br>
 <img src="../assets/normalVase.png" alt="Object 3 3D Object Image" width="350" height="350" >
+<br>
 
 1) 11.8
 2) Adjusted Bezier Graph
@@ -82,7 +88,9 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 10) 1.38
 
 **Object 4 - Mushroom Cloud/Table**
+<br>
 <img src="../assets/mushroomCloud.png" alt="Object 4 3D Object Image" width="350" height="350" >
+<br>
 
 1) 6.4
 2) Parabola Graph
@@ -96,7 +104,9 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 10) 1.2
 
 **Object 5 - Sack/Santa's Bag**
+<br>
 <img src="../assets/santaBag.png" alt="Object 5 3D Object Image" width="350" height="350" >
+<br>
 
 1) 7.7
 2) Sinc Graph
@@ -111,8 +121,9 @@ Here I am going to showcase the parameters I used and the images of 5 different 
 
 ### Code
 This shows you the visual code from Grasshopper I used in order to create the above objects. The screenshots show the script setup for the object one output.
-<img src="../assets/grasshopperScript1.png" alt="Grasshopper Script Part 1" width="200" height="200" style="border: 5px solid black;">
-<img src="../assets/grasshopperScript2.png" alt="Grasshopper Script Part 2" width="200" height="200" style="border: 5px solid black;">
+<br>
+<img src="../assets/grasshopperScript1.png" alt="Grasshopper Script Part 1" width="300" height="300" style="border: 5px solid black;">
+<img src="../assets/grasshopperScript2.png" alt="Grasshopper Script Part 2" width="300" height="300" style="border: 5px solid black;">
 
 # Part 2: Creating a 3D to 2D Slicer
 For this second stage I learned how to create my very own slicer that when it recieves the dimensions of a 3D object is able to create slices a number of slices through the object based on the objects height and thickness of cutting material. From their the slices are displayed on a 2D plane side by side and ready to be laser cut. In this section I show you the code for my slicer, the slices and fabrication for two of my created objects.
@@ -122,21 +133,29 @@ The only mathematical calculation that my slicer does really is dividing the hei
 
 ### Output
 **Spikey Vase Slices**
+<br>
+<img src="../assets/slicesSpikey.png" alt="Spikey Vase Slices Image" width="350" height="350" style="border: 5px solid black;">
 
 **Spikey Vase Fabrication**
+<br>
 <img src="../assets/spikeySetUp.jpg" alt="Spikey Vase Setup Image" width="200" height="200" style="border: 5px solid black;">
 <img src="../assets/spikeyComplete.jpg" alt="Spikey Vase Complete Image" width="200" height="200" style="border: 5px solid black;">
 
 **Deformed Bowl Slices**
+<br>
+<img src="../assets/deformedSlices.png" alt="Deformed Bowl Slices Image" width="350" height="350" style="border: 5px solid black;">
 
 **Deformed Bowl Fabrication**
+<br>
 <img src="../assets/deformedSetUp.jpg" alt="Deformed Bowl Setup Image" width="200" height="200" style="border: 5px solid black;">
 <img src="../assets/deformedComplete.jpg" alt="Deformed Bowl Complete Image" width="200" height="200" style="border: 5px solid black;">
+
 ### Code
 The code below showcases the slicer script I used to create slices for the fabricated objects above. As a note in the script you see, the thickness parameter and object size are adjusted to be smaller than real life as to not lag my computer.
-<img src="../assets/slicerCode1.png" alt="Slicer Script Part 1" width="200" height="200" style="border: 5px solid black;">
-<img src="../assets/slicerCode2.png" alt="Slicer Script Part 2" width="200" height="200" style="border: 5px solid black;">
-<img src="../assets/slicerCode3.png" alt="Slicer Script Part 3" width="200" height="200" style="border: 5px solid black;">
+<br>
+<img src="../assets/slicerCode1.png" alt="Slicer Script Part 1" width="300" height="300" style="border: 5px solid black;">
+<img src="../assets/slicerCode2.png" alt="Slicer Script Part 2" width="300" height="300" style="border: 5px solid black;">
+<img src="../assets/slicerCode3.png" alt="Slicer Script Part 3" width="300" height="300" style="border: 5px solid black;">
 
 
 
