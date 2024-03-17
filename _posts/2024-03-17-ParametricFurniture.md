@@ -23,19 +23,23 @@ In this first part of the project, my goal was to be able to create a script tha
 For this project, the only mathematical calculations that I used where for the parameters of the stool. Here I will break down what those parameters are, and what they do.
 
 **Parameters**
+<br>
+
 1) *Circle Radius* - a slider that changes the radius of the seat.
-2) *Circle Extrusion Factor* - a slider that changes how thick the seat is.
-3) *Circle Z-Axis Movement Factor* - a slider that effects how far up seat should be on z-axis.
-4) *Stool Leg Radius* - a slider that changes radius of stool legs.
-5) *Stool Leg Extrusion Factor* - a slider that changes how thick the stool legs are.
-6) *Stool Leg Rotation Angle (Degrees)* - a slider that changes the angle at which stool legs are.
-7) *Stool Leg Y-Axis Movement Factor* - a slider that decides how far away stool legs should be fronm center.
-8) *Stool Legs Polar Array Angle* - a slider that changes how far stool legs go in a circle.
-9) *Number of Stool Legs* - a slider that changes how many stool legs there are.
+<br>
+
+2) *Circle Extrusion Factor* - a slider that changes how thick the seat is.<br>
+3) *Circle Z-Axis Movement Factor* - a slider that effects how far up seat should be on z-axis.<br>
+4) *Stool Leg Radius* - a slider that changes radius of stool legs.<br>
+5) *Stool Leg Extrusion Factor* - a slider that changes how thick the stool legs are.<br>
+6) *Stool Leg Rotation Angle (Degrees)* - a slider that changes the angle at which stool legs are.<br>
+7) *Stool Leg Y-Axis Movement Factor* - a slider that decides how far away stool legs should be fronm center.<br>
+8) *Stool Legs Polar Array Angle* - a slider that changes how far stool legs go in a circle.<br>
+9) *Number of Stool Legs* - a slider that changes how many stool legs there are.<br>
 
 
 ### Output
-Here I am going to showcase the parameters I used and the images of the 3 different furniture variations using my Grasshopper script. I will list parameters from 1 to 9 representing the parameters above.
+Here I am going to showcase the parameters I used and the images of the 3 different furniture variations using my Grasshopper script. I will list parameters from 1 to 9 representing the parameters above.<br>
 **Object 1 - Standard Stool**
 <br>
 <img src="../assets/stool1.png" alt="Object 1 3D Stool Image" width="350" height="350" >
@@ -135,7 +139,7 @@ Here I am going to showcase the parameters I used and the images of the 3 differ
 # Part 2: Furniture Fabrication
 
 In this part of the project, I will showcase to you the fabricated images of the furniture I showcased.
-Below you will see two picture showcasing the fabrication of furniture one and two from above using a 3D printa with Pursa Slicer.
+Below you will see two picture showcasing the fabrication of furniture one and two from above using a 3D printer with Pursa Slicer.
 
 ### Mathematical Calculations
 The only mathematical calculation that where required here where to make sure that the object fit into a 60mm x 60mm x 60mm field for the 3D printer.
