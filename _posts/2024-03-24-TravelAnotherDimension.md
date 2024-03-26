@@ -68,7 +68,7 @@ The image below shows the test result from the *course test* from my slicer with
 <img src="../assets/single-layer-test.png" alt="Single-layer Test Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
 **Multi Layer**
-> **Here is the gcode file used for testing a multi-layer cylinder:** <a href="https://drive.google.com/file/d/1cv2x8Q5LsSLVjxyvIC_U7X83ilC3y_mh/view?usp=sharing">single-layer g-code file</a>
+> **Here is the gcode file used for testing a multi-layer cylinder:** <a href="https://drive.google.com/file/d/1cv2x8Q5LsSLVjxyvIC_U7X83ilC3y_mh/view?usp=sharing">multi-layer g-code file</a>
  
 The image below shows the test result from the *course test* from my slicer with multiple layers. All of the tests for this where passed.
  <br>
