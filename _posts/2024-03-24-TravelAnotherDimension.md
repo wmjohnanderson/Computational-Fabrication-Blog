@@ -39,10 +39,14 @@ For this part of the project, with help from a code template, I edited a python 
 
 ### Code
 
-> This code is for the *gcode_move()* function
+> **This code is for the *gcode_move()* function**
+<br>
 <script src="https://gist.github.com/Wian9699/730897b00a18c22eb78145f9225b5811.js"></script>
 
-> This code is for the *generate_gcode()* function
+<br>
+
+> **This code is for the *generate_gcode()* function**
+<br>
 <script src="https://gist.github.com/Wian9699/261d3652178e9ca997cf2ccd24e7a26b.js"></script>
 
 ### Output
@@ -54,15 +58,19 @@ For this part of the project, I used the pancake plug-in from Grasshopper with t
 
 ### Output
 **Single Layer**
+> **Here is the gcode file used for testing a single-layer cylinder:** <a href="https://drive.google.com/file/d/1SLW6oOrDlXM9rf6eXw_OvNdS4qN6bV63/view?usp=sharing">single-layer g-code file</a>
+ 
 The image below shows the test result from the *course test* from my slicer with a single layer. All of the tests for this where passed.
-
-The image below shows the test result from *Zupfe from my slicer with a single layer. The g-code worked.
+<img src="../assets/single-layer-test.png" alt="Single-layer Test Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
 **Multi Layer**
+> **Here is the gcode file used for testing a multi-layer cylinder:** <a href="https://drive.google.com/file/d/1cv2x8Q5LsSLVjxyvIC_U7X83ilC3y_mh/view?usp=sharing">single-layer g-code file</a>
+ 
 The image below shows the test result from the *course test* from my slicer with multiple layers. All of the tests for this where passed.
 
-The image below shows the test result from *Zupfe from my slicer with multiple layers. The g-code worked.
+<img src="../assets/multi-layer-test.png" alt="Multi-layer Test Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
+The image below shows the test result from *Zupfe* from my slicer with multiple layers. The g-code worked.
 
 # Challenges Faced
 After the last project, I felt a lot more confident and ready for this project and experimenting with Grasshopper, though I did run into one massive problem.
