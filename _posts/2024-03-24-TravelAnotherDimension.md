@@ -72,7 +72,15 @@ The image below shows the test result from the *course test* from my slicer with
 
 The image below shows the test result from *Zupfe* from my slicer with multiple layers. The g-code worked.
 
-# Challenges Faced
-After the last project, I felt a lot more confident and ready for this project and experimenting with Grasshopper, though I did run into one massive problem.
+<img src="../assets/multi-layer-visual-test.png" alt="Multi-layer Visual Test Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
-The one massive problem I ran into with this project had to do with the fabrication of the furniture and the snow storm we had during this project. Getting into the lab in order to fabricate these items when I planned to do it during the snow storm made this project a lot more stressful then it needed to be.
+# Part 2
+
+TBD
+
+# Challenges Faced
+This project, I became a lot more familiar with using both Grasshopper, and 3D printing technologies. I was also able to use python scripting within Grasshopper for the first time, and this didn't come without any problems or issues.
+ 
+I would say, the main problem I had with this project has to do with creating the infill lines. I spent a considerable amount of time trying to figure out how to get a rectilinear pattern to work despite all the resources given to me in order to figure it out. For whatever reason nothing was working and it just took enough trying to get it right.
+ 
+Other than that though, I was suprised by how smoothly the scripting and verification of my G-code went, and I am really excited to explore more of what I can do with a 3D slicer.
