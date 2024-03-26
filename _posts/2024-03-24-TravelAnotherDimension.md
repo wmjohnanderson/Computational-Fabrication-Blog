@@ -29,7 +29,10 @@ In this first part of the project, my goal is to create a 3D slicer that will sl
 
 ### Output
 > The image below is the generated image from the single-layer slicer script test within Rhino 8.
+<br>
 <img src="../assets/single-layer-slice.png" alt="Single-layer Slicer Screenshot" width="350" height="350" style = "border: 5px solid black;">
+<br>
+
 > The image below is the generated image from the multi-layer slicer script test within Rhino 8.
 <img src="../assets/multi-layer-slice.png" alt="Multi-layer Slicer Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
@@ -61,17 +64,18 @@ For this part of the project, I used the pancake plug-in from Grasshopper with t
 > **Here is the gcode file used for testing a single-layer cylinder:** <a href="https://drive.google.com/file/d/1SLW6oOrDlXM9rf6eXw_OvNdS4qN6bV63/view?usp=sharing">single-layer g-code file</a>
  
 The image below shows the test result from the *course test* from my slicer with a single layer. All of the tests for this where passed.
+<br>
 <img src="../assets/single-layer-test.png" alt="Single-layer Test Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
 **Multi Layer**
 > **Here is the gcode file used for testing a multi-layer cylinder:** <a href="https://drive.google.com/file/d/1cv2x8Q5LsSLVjxyvIC_U7X83ilC3y_mh/view?usp=sharing">single-layer g-code file</a>
  
 The image below shows the test result from the *course test* from my slicer with multiple layers. All of the tests for this where passed.
-
+ <br>
 <img src="../assets/multi-layer-test.png" alt="Multi-layer Test Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
 The image below shows the test result from *Zupfe* from my slicer with multiple layers. The g-code worked.
-
+<br>
 <img src="../assets/multi-layer-visual-test.png" alt="Multi-layer Visual Test Screenshot" width="350" height="350" style = "border: 5px solid black;">
 
 # Part 2
