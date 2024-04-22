@@ -27,7 +27,7 @@ For the first part of this project I am planning how I can achieve the vision th
 The image you see above is from a creator "Laser Bun" on a website called <a href = "https://designbundles.net/laser-bun/2044831-box-laser-cut-files-svg-cutting-files-dxf-cnc-cut-">designbundles.net</a>. This is what I am striving to do with the box that will encase the inserts for this project. This can be achieved through finger joinst as you can see from the project photo. You may notice the barrier slots in the photo of the box which uphold the lid from falling into the box. Because I am doing the project with inserts of different sizes with the goal of maximizing space efficienct, I can not have the same support structures for my box. To counteract this, I plan to make the box a little bit larger in its width in order to allow me to put two beam structures on either wall of the box to hold up the lid.
 
 ### Board Game Inserts
-<img src="../assets/box-inspiration.jpg" alt="board game box inspiration photo" width="350" height="350" style = "border: 5px solid black;">
+<img src="../assets/insert-drawings.jpg" alt="board game insert sketches" width="350" height="350" style = "border: 5px solid black;">
  
 This image that you see above is the sketches I did to show you what I expect and want the each of the inserts to look like for the board game box. They are designed to fit each of the pieces snuggly to maximize space efficiency while also giving the user a way to easily retrieve whatever piece it is from the insert. that is why there are the half-sphere cutouts on the dice insert, missing walls of the card insert, and extra margin for the miniature insert.
 
@@ -47,6 +47,7 @@ The only other python scripts we used in this project so far are for packing ins
 ## Output
 
 >Here are screenshots of the script for each of the created inserts
+ 
 ### Card Insert
 The parameters for this card insert where:
 - type 1 insert
@@ -55,8 +56,8 @@ The parameters for this card insert where:
 - 1 mm height
 - 30 quantity
  
-<img src="../assets/cardInsert-1.png" alt="photo of card insert script (1)" width="350" height="350" style = "border: 5px solid black;">
-<img src="../assets/cardInsert-2.png" alt="photo of card insert script (2)" width="350" height="350" style = "border: 5px solid black;">
+<img src="../assets/cardInsert-1.png" alt="photo of card insert script (1)" width="350" height="150" style = "border: 5px solid black;">
+<img src="../assets/cardInsert-2.png" alt="photo of card insert script (2)" width="350" height="150" style = "border: 5px solid black;">
  
 <img src="../assets/card3D.png" alt="photo of generated card insert" width="350" height="350" style = "border: 5px solid black;">
 
@@ -69,8 +70,8 @@ The parameters for this card insert where:
 - 20 mm height
 - 5 quantity
  
-<img src="../assets/diceInsert-1.png" alt="photo of dice insert script (1)" width="350" height="350" style = "border: 5px solid black;">
-<img src="../assets/diceInsert-2.png" alt="photo of dice insert script (2)" width="350" height="350" style = "border: 5px solid black;">
+<img src="../assets/diceInsert-1.png" alt="photo of dice insert script (1)" width="350" height="150" style = "border: 5px solid black;">
+<img src="../assets/diceInsert-2.png" alt="photo of dice insert script (2)" width="350" height="150" style = "border: 5px solid black;">
  
 <img src="../assets/dice3D.png" alt="photo of generated dice insert" width="350" height="350" style = "border: 5px solid black;">
 
@@ -87,13 +88,3 @@ The parameters for this card insert where:
   
 <img src="../assets/Mini3D.png" alt="photo of generated miniature insert" width="350" height="350" style = "border: 5px solid black;">
 
-### Basic Insert
-The parameters for this card insert where:
-- type 3 insert
-- 25 mm width
-- 25 mm length
-- 40 mm height
-- 5 quantity
- 
-<img src="../assets/box-inspiration.jpg" alt="board game box inspiration photo" width="350" height="350" style = "border: 5px solid black;">
-<img src="../assets/box-inspiration.jpg" alt="board game box inspiration photo" width="350" height="350" style = "border: 5px solid black;">
