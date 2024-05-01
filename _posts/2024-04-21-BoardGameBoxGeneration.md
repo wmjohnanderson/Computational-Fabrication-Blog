@@ -97,9 +97,9 @@ The paramaters for this default insert where:
 - 1.5 mm height
 - 50 quantity
 
-<img src="../assets/MiniInsert.png" alt="photo of miniature insert script" width="350" height="350" style = "border: 5px solid black;">
+<img src="../assets/default-code.png" alt="photo of default insert script" width="350" height="350" style = "border: 5px solid black;">
   
-<img src="../assets/Mini3D.png" alt="photo of generated miniature insert" width="350" height="350" style = "border: 5px solid black;">
+<img src="../assets/default-model.png" alt="photo of generated default insert" width="350" height="350" style = "border: 5px solid black;">
 
 # Part 3: Insert Packing
 At this point in the assignment I have been able to generate all of the inserts through grasshopper, and this part of the project I worked on developing an algorithm that will take all of the inserts and their dimensions to find the best possible arrangement for the inserts in order to get the board games box dimensions to laser cut the box. I will give you the python script below that calculates the position for each insert, show you a 3D model of all the inserts laid out for a Bang! Dice Game box and some screenshots of the grasshopper code.
@@ -110,26 +110,34 @@ At this point in the assignment I have been able to generate all of the inserts 
 <script src="https://gist.github.com/Wian9699/84d93c337baad843526175070996c616.js"></script>
 
 ### Code
-> This is the script that takes the points from the packing algorithm and moves the inserts to there designated locations
+> This is the script that takes the points from the packing algorithm and moves the inserts to there designated locations.
  
 <img src="../assets/packing-code.png" alt="photo of grasshopper packing script" width="350" height="350" style = "border: 5px solid black;">
 
 ### Output
+> Below is the packed model for the Bang! Dice Game.
+ 
 <img src="../assets/box-packed.png" alt="photo of inserts layed out in box" width="350" height="350" style = "border: 5px solid black;">
 
 
 # Part 4: Box Generation & Cutouts
 This is the final step of the project before fabrication needs to be done. From the last part I was able to generate the dimensions of the box that I plan on putting the inserts into. In this part I take those dimensions and I create a 3D model of the board game box with finger joints based on the dimensions and then I project each side of the box onto the xy plane to give me a cutout of the box for laser cutting. The process of generating the cutouts consists of two parts: the cutout of the finger jointed sides, and the cutout of the lid and support walls.
+**All models will be based on the needs for "Bang! The Dice Game."**
 
 ## Code
 
 ### 3D Model Code
+<img src="../assets/box-script.png" alt="photo of 3D box model script" width="350" height="350" style = "border: 5px solid black;">
 
 ### Cutout Code
+<img src="../assets/cutout-script.png" alt="photo of box cutout script" width="350" height="350" style = "border: 5px solid black;">
 
 ## Output
 
 ### 3D Model
 
+<img src="../assets/box-model.png" alt="photo of finger jointed box model" width="350" height="350" style = "border: 5px solid black;">
+
 ### Cutout
 
+<img src="../assets/cutout-model.png" alt="photo of finger jointed cutout" width="350" height="350" style = "border: 5px solid black;">
