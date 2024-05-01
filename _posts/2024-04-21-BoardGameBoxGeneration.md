@@ -37,7 +37,7 @@ In this part of the project I will start working with Grasshoper in Rhino 8 to c
 ## Code
 
 > **For the rest of the blog you can refer to this Grasshopper script to follow along and see the code for yourself**
-> **Link:** <a href = "https://drive.google.com/file/d/19Bqa8ikHb3OlG_DOdP8DfRCWjs0h71XL/view?usp=sharing"> Grasshopper Script</a>
+> **Link:** <a href = "https://drive.google.com/file/d/15JBxmAZyFNDYBRlxuIcrUX-ronKhtIuE/view?usp=sharing"> Grasshopper Script</a>
  
 <script src="https://gist.github.com/Wian9699/a0f5e14857360bd08e45f8d0185bd2ca.js"></script>
 
