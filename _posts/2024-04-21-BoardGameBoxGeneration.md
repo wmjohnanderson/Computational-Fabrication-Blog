@@ -4,6 +4,8 @@ layout: post
 ---
 For this final project of my work through Computational Fabrication at CU Boulder I will continue to work with Grasshopper and Rhino 8 to make a script that can generate an entire board game box based on paramaters. The script will take in information about the type of inserts required, number of inserts, number of pieces, and then piece dimension in order to create unique inserts for different types of pieces. After creating the inserts required for the box, the script will run a bin staking alogrithm that will find the best possible orientation within a box for all the inserts. With all the inserts and box dimension figured out, the script will create a box to house the inserts with finger joints to connect the walls. In order to fabricate this project, I plan on using 3D printing for the inserts, and laser cutting for the box. Board games a passion of mine as I run a board game club at CU Boulder, so this project feels like a good combination of passion and challenge for me.
 
+At my club here at CU Boulder, one of the biggest problems we have is with board game boxes being both unnecessarily large and also breaking down quickly because they are usually made with cheap cardboard. This project will unlock the ability to create a new box for a board game that is both smaller and more structurally made so that it can last a longer time. The one downside it will have is being heavier than other board game boxes.
+
 # Materials Used
 ### Software & Machines
 - **Rhino 8:** Utilized in conjunction with grasshopper to great 3D designs, and a 3D to 2D slicer. Program also used in order to print to laser cutter.
@@ -15,7 +17,7 @@ For this final project of my work through Computational Fabrication at CU Boulde
 
 ### Fabrication Materials
 - **PLA Filament:** The type of filament used with the MKS3+ Printer.
-- **1/4" Thick Plywood:** The material used for laser cutting out the board game box.
+- **1/4" Thick Birch Plywood:** The material used for laser cutting out the board game box.
 - **Gorilla Glue:** Used to ensure board game box is constructed well.
 
 # Part 1: Planning and Designs
@@ -140,4 +142,34 @@ This is the final step of the project before fabrication needs to be done. From 
 
 ### Cutout
 
-<img src="../assets/cutout-model.png" alt="photo of finger jointed cutout" width="350" height="350" style = "border: 5px solid black;">
+# Part 5: Fabrication
+This is my final step in this project and it involves fabricating both the inserts and the box which uses the inserts above. Here I will describe how I was able to fabricate both the box and the inserts and the different methods I used to do it.
+
+### Box Fabrication
+For this part, I took the generated outlines from the Grasshopper program and loaded it into Rhino at the BTU Lab in CU Boulder. From there I was able to specify that outlines as "hairline" and also adjusted print settings to ensure that when I started the laser cutting job that it would cut through the entire 1/4" plywood.
+
+### Insert Fabrication
+For this part, I took each insert individually and uploaded it into Prusa Slicer to generate g-code that would work with an MK3S+ printer that was located in the BTU lab. Each insert I found took roughly 4 hours to fabricate, and at the end I was able to arrange all the inserts like the model from an above section in the box to finally create the fully fabricated board game box.
+
+## Output
+The game that the box below represents is a dice game called "Bang!" It is a social deduction game where cops and outlaws go toe to toe to take eachother out by rolling dice with yahtzee rules. For this project I required three insert that include a dice insert for the five dice, card insert for the role and character cards, and a token insert for the bullet and arrow tokens. Below is the final fabrication with all the pieces.
+ 
+<img src="../assets/game-side.jpg" alt="Fabricated photo of game (side angle)" width="350" height="350" style = "border: 5px solid black;">
+<img src="../assets/game-top.jpg" alt="Fabricated photo of game (top angle)" width="350" height="350" style = "border: 5px solid black;">
+<img src="../assets/game-lid.jpg" alt="Fabricated photo of game (lid on)" width="350" height="350" style = "border: 5px solid black;">
+
+# Reflection
+
+At the end of this project, I am defenitely happy with the product I was able to end up with. For the most part, everything I wanted to achieve was achieved and I was able to create a script that can generate any board box I want. Obviously though, this did not come without its problems or issues, and this project was defenitely a lot harder than I had initially thought. 
+ 
+The biggest problem I had with this project had to be with the box packing algorithm. I wanted this project to be fully automated from the point of entering parameters which meant that when it came time to figure out the size of the board game box I need to formulate a bin packing algorithm that can generate positions for each of inserts in a way that maximizes space and creates a box. This was extremely difficult and took a lot of time to come to the solution of tracking potential postions and tracking for collisions. If I had more time on this project, I would also edit this algorithm to check for rotation, and vertical stacking.
+
+The second biggest problem I would run into with this project involved with the fabrication. I made it so that each insert would be the same height in the end as the tallest insert so that the levels looked even in the box. In doing so I also made it so that the height extensions for the inserts had an empty bottom. In Prusa Slicer I ran into the problem of the inserts not being structurally stable for printing and relying on build plate supports which in turn did the thing I was trying to avoid which was filling in the bottom.
+ 
+Other things I would add with more time on the project includes: 
+- More insert customization
+- Tabs on inserts to help retrieve from box
+- Make the filler inserts hollow from the bottom
+- Decal Generation for top of box (board game title)
+- Make default insert have higher length and width instead of equal dimensions for width, lenght, height
+- many more...
